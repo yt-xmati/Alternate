@@ -126,7 +126,7 @@ class MainMenuState extends MusicBeatState
 
 		FlxG.camera.follow(camFollowPos, null, 1);
 
-		var versionShit:FlxText = new FlxText(12, FlxG.height - 0, 0, "Alternate PE Port " + psychEngineVersion, 12);
+		var versionShit:FlxText = new FlxText(12, FlxG.height - 24, 0, "Alternate PE Port " + psychEngineVersion, 12);
 		versionShit.scrollFactor.set();
 		versionShit.setFormat("Comic Sans MS Bold", 16, FlxColor.BLACK, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.WHITE);
 		
